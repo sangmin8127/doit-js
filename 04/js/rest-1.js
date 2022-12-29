@@ -4,8 +4,8 @@ function addNum(...numbers) {
   for (let number of numbers) 
     sum += number;
 
-  return sum;
+  //return sum;
 }
 
 console.log(addNum(1, 3));
-console.log(addNum(1, 3, 5, 7));
+console.log(addNum(1, 3, 5, 7)); 

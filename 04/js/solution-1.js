@@ -13,3 +13,5 @@ const number = parseInt(prompt('숫자를 입력하세요.'));
 if(!isNaN(number)) {  // 숫자일 경우에만 실행
   isPositive(number);
 }
+
+
